@@ -1,0 +1,29 @@
+{
+  "name": "should-i-startup",
+  "version": "1.0.0",
+  "description": "In case you were thinking of starting up...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bin": {
+    "should-i-startup": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/should-i-startup.git"
+  },
+  "author": "himynameisdave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himynameisdave/should-i-startup/issues"
+  },
+  "homepage": "https://github.com/himynameisdave/should-i-startup#readme",
+  "dependencies": {
+    "open": "0.0.5",
+    "request-promise": "^3.0.0"
+  }
+}
